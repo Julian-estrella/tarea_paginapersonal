@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio personal y proyectos de desarrollo.">
+    <title>Portafolio personal</title>
+
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://kit.fontawesome.com/65079d3bf2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="encabezado">
+    <div class="contenedor navegacion">
+      <div class="titulo">
+      <a href="#inicio" class="marca" aria-label="Ir al inicio">
+        <img src="imagenes\logoJEB.png" alt="Logotipo JEB"></a>
+        <div>
+        <p>Julián Estrella Be</p>
+        <p>Frontend developer</p>
+        </div>
+      </div>
+
+      
+        
+        <nav class="menu-escritorio" aria-label="Navegacion principal">
+          <a href="#inicio">Inicio</a>
+          <a href="#sobre-mi">Sobre mí</a>
+          <a href="#experiencia">Experiencia</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#contacto" class="enlace-contacto">Contacto</a>
+        </nav>
+        
+        <details class="menu-movil">
+          <summary class="boton-menu" aria-label="Abrir o cerrar menú">
+            <i class="fa-solid fa-bars icono-abrir"></i>
+            <i class="fa-solid fa-xmark icono-cerrar"></i>
+          </summary>
+          
+          <nav class="menu-desplegable" aria-label="Navegacion movil">
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-mi">Sobre mí</a>
+             <a href="#experiencia">Experiencia</a>
+             <a href="#proyectos">Proyectos</a>
+             <a href="#contacto">Contacto</a>
+            </nav>
+        </details>
+    </div>
+  </header>
+  
+  <main>
+    <section class="portada" id="inicio">
+      <div class="contenedor portada-contenido">
+        <div class="texto-portada">
+          <p class="etiqueta etiqueta-clara">PORTAFOLIO PERSONAL</p>
+          <h1>Mi nombre es <span>Julián Estrella Be</span></h1>
+          <h2>Estudiante de Ingeniería en Sistemas Computacionales</h2>
+          <p class="descripcion-portada">Me interesa el desarrollo de software y la creación de soluciones digitales. En este espacio comparto un poco sobre mí, mis habilidades y algunos de los proyectos en los que he trabajado.</p>
+          <div class="acciones-portada">
+            <a href="#sobre-mi" class="boton boton-verde">Conóceme</a>
+            <a href="https://drive.google.com/file/d/1mRInd1Fwb_NzJQVNa37VW8a2Z9gWVDnb/view?usp=sharing" class="boton boton-contorno" target="_blank" rel="noopener">Descargar CV</a>
+          </div>
+          
+          <div class="redes-portada">
+            <a href="https://github.com/Julian-estrella" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/juli%C3%A1n-estrella-be-7b550243b/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:julianstarbe@gmail.com" aria-label="Correo electrónico"><i class="fa-regular fa-envelope"></i></a>
+          </div>
+        </div>
+        
+        <div class="visual-portada">
+          <div class="circulo-perfil"></div>
+          <img class="foto-perfil" src="imagenes\foto1.png" alt="Fotografía de perfil">
+          <div class="tecnologia tecnologia-css"><img src="imagenes\free-tailwind-icon@2x.png" alt="CSS"></div>
+          <div class="tecnologia tecnologia-java"><img src="imagenes\226777.png" alt="Java"></div>
+          <div class="tecnologia tecnologia-python"><img src="imagenes\Python-logo-notext.svg.webp" alt="Python"></div><div class="tecnologia tecnologia-php"><img src="imagenes\PHP-logo.svg.webp" alt="PHP"></div>
+          <div class="tecnologia tecnologia-mysql"><img src="imagenes\5968313.png" alt="MySQL"></div>
+          <div class="tecnologia tecnologia-laravel"><img src="imagenes\Laravel.svg.webp" alt="Laravel"></div>
+        </div>
+      </div>
+    </section>
+
+        <section class="seccion sobre-mi" id="sobre-mi">
+            <div class="contenedor sobre-contenido">
+                <div class="texto-seccion">
+                  <p class="etiqueta">UN POCO SOBRE MÍ</p>
+                  <h2>¿Quién <span>soy?</span></h2>
+                  <p>Mi nombre es Julián Estrella Be Estudiante del tecnológico de Mérida con conocimientos en programación en Java, PHP y Python y conocimientos back-end con Laravel, Front-end Blade,  TailwindCSS 3 y bases de datos MySQL</p>
+                  <div class="etiquetas-habilidades">
+                    <span>Desarrollo web</span>
+                    <span>Programación</span>
+                    <span>Bases de datos</span>
+                  </div>
+                </div>
+                
+                <div class="tarjeta-habilidades">
+                  <div class="puntos-decorativos"><span></span><span></span><span></span></div>
+                  <h3>Mis habilidades</h3>
+                  <ul class="lista-habilidades">
+                    <li>
+                      <img src="imagenes\HTML.webp" alt="">
+                      <span>HTML y CSS</span>
+                      <small>Maquetación web</small>
+                    </li>
+                    <li>
+                      <img src="imagenes\226777.png" alt="">
+                      <span>Java</span>
+                      <small>Programación</small>
+                    </li>
+                    <li>
+                      <img src="imagenes\PHP-logo.svg.webp" alt="">
+                      <span>PHP</span>
+                      <small>Desarrollo backend</small>
+                    </li>
+                    <li>
+                      <img src="imagenes\Python-logo-notext.svg.webp" alt="">
+                      <span>Python</span>
+                      <small>Programación</small>
+                    </li>
+                    <li>
+                      <img src="imagenes\Laravel.svg.webp" alt="">
+                      <span>Laravel</span>
+                      <small>Framework</small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+        </section>
+        
+        <section class="seccion experiencia" id="experiencia">
+          <div class="contenedor experiencia-contenido">
+            <div class="texto-seccion">
+              <p class="etiqueta">MI TRAYECTORIA</p>
+              <h2>Experiencia <span>laboral</span></h2>
+              <h3>Comisión Federal de Electricidad</h3>
+              <p>En mi tiempo en el Tecnológico de Mérida he hecho mi servicio en la comisión federal de electricidad Zona Mérida bajo la supervisión del ingeniero Ramon Francisco Echeverria Garrido bajo el programa “Sistema de seguimiento y control de anomalía de campo” terminándola de manera satisfactoria.</p>
+              <a href="#contacto" class="boton boton-verde">Conoce más</a>
+            </div>
+            <div class="tarjeta-empresa">
+              <img src="imagenes\Logo_neutral_de_la_Comisión_Federal_de_Electricidad.svg" alt="Logotipo de CFE">
+            </div>
+          </div>
+        </section>
+        
+        <section class="seccion proyectos" id="proyectos">
+          <div class="contenedor">
+            <div class="titulo-centrado">
+              <p class="etiqueta">ALGUNOS DE MIS TRABAJOS</p>
+              <h2>Mis <span>proyectos</span></h2>
+              <p>Una muestra de algunos proyectos realizados durante mi formación.</p>
+            </div>
+            
+            <div class="lista-proyectos">
+              <article class="proyecto">
+                <a href="https://github.com/Julian-estrella/gymcontrol" class="imagen-proyecto" aria-label="Consultar proyecto GymControl" target="_blank" rel="noopener"><img src="imagenes\imagen3.jpg" alt="Captura del panel de GymControl"></a>
+                <div class="contenido-proyecto">
+                  <p class="etiqueta">SISTEMA WEB</p>
+                  <h3>GymControl</h3>
+                  <p>Sistema de gestión con un panel administrativo para organizar usuarios y distintos módulos de operación.</p>
+                  <a href="https://github.com/Julian-estrella/gymcontrol" class="enlace-proyecto" target="_blank" rel="noopener">Más información <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+              </article>
+              
+              <article class="proyecto">
+                <a href="https://github.com/Julian-estrella/Backend" class="imagen-proyecto" aria-label="Consultar proyecto Health App" target="_blank" rel="noopener"><img src="imagenes\imagen4.jpg" alt="Captura del panel de Health App"></a>
+                <div class="contenido-proyecto">
+                  <p class="etiqueta">SISTEMA WEB</p>
+                  <h3>Health App</h3>
+                  <p>Aplicación para la administración de información y procesos relacionados con pacientes, médicos y citas.</p>
+                  <a href="https://github.com/Julian-estrella/Backend" class="enlace-proyecto" target="_blank" rel="noopener">Más información <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+  </main>
+  
+  <footer class="pie-pagina" id="contacto">
+    <div class="contenedor pie-contenido">
+      <a href="#inicio" class="marca-pie" aria-label="Ir al inicio"><img src="imagenes/logoJEB.png" alt="Logotipo JEB"></a>
+      
+      <div class="contacto-pie">
+        <p class="texto-pie-pequeno">¿TRABAJAMOS JUNTOS?</p>
+        <h2>¡Ponte en contacto!</h2>
+        <a href="mailto:julianstarbe@gmail.com" class="correo-pie">julianstarbe@gmail.com</a>
+      </div>
+      
+      <div class="redes-pie">
+        <a href="https://github.com/Julian-estrella"
+        target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/juli%C3%A1n-estrella-be-7b550243b/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+
+        <a href="mailto:julianstarbe@gmail.com" aria-label="Correo electrónico"><i class="fa-regular fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
